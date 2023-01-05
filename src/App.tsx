@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Link } from "react-router-dom";
+import Teste from './teste/teste';
 
 function App() {
   return (
     <div className="App">
-      <p>Hello word!</p>
+      <Teste/>
     </div>
   );
 }
